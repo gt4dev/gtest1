@@ -13,3 +13,12 @@ This is NOT an <h6> tag
 
 I think you should use an
 `<addr>` element here instead.
+
+
+You can also simply indent your code by four spaces:
+
+    function fancyAlert(arg) {
+      if(arg) {
+        $.facebox({div:'#foo'})
+      }
+    }
